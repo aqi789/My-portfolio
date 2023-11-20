@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#hero {
+    background-image: url(https://colibriwp.com/blog/wp-content/uploads/2019/08/kseniya-lapteva-LdPFsNeCPGk-unsplash.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+#hero .container {
+    padding: 250px 0;
+}
+#hero h1 {
+    font-size: 50px;
+}
+#about  {
+    background-color: rgb(236, 67, 228);
+    color: #fff;
+}
+.card-columns :hover {
+    background-color: rgb(47, 176, 228);
+    color: #fff;
+}
+#btn {
+    background-color: rgb(47, 176, 228);
+    color: #fff;
+}
+#btn:hover {
+    background-color: #fff;
+    color: rgb(236, 67, 228);
+}
+#section2 {
+    background-color: rgb(236, 67, 228);
+    color: #fff;
+}
